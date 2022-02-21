@@ -28,7 +28,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mattn/emmet-vim'
-Plug 'franbach/miramare'
+Plug 'sainnhe/sonokai'
+
+"Plug FZF & vim-rooter into vim
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
 
 " Work environment
 Plug 'amadeus/vim-mjml'
@@ -102,7 +107,7 @@ set smartcase
 syntax on
 set ruler
 set number
-colorscheme miramare
+colorscheme sonokai
 
 set mousemodel=popup
 set t_Co=256
