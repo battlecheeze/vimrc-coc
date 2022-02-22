@@ -18,6 +18,21 @@ xcode-select --install
 
 Add this to your `PATH` environment variable
 
+**for Bash**
+
 ``` 
 echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 ```
+
+**for Zsh**
+
+```
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+```
+
+##Install iTerm2##
+
+```
+brew install --cask iterm2
+```
+
