@@ -44,7 +44,7 @@ brew install --cask iterm2
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-** Install Oh My Bash **
+**Install Oh My Bash**
 
 [Oh My Bash](https://ohmybash.nntoan.com/)
 
@@ -52,10 +52,22 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
 
-** Install Vim **
+**Install Vim**
 
 ```
 brew install vim
+```
+
+add folder 
+
+```
+mkdir .vim && cd .vim
+```
+
+add autoload and move the plug.vim at autoload
+
+```
+mkdir autoload && mv plug.vim
 ```
 
 ## Install FZF and more
