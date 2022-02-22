@@ -30,7 +30,7 @@ echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 echo 'PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
 ```
 
-##Install iTerm2##
+##Install iTerm2
 
 ```
 brew install --cask iterm2
