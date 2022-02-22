@@ -36,3 +36,30 @@ echo 'PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
 brew install --cask iterm2
 ```
 
+**Install OH My ZSH!**
+
+[Oh My ZSH](https://ohmyz.sh/)
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+** Install Oh My Bash **
+
+[Oh My Bash](https://ohmybash.nntoan.com/)
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+```
+
+** Install Vim **
+
+```
+brew install vim
+```
+
+## Install FZF and more
+
+[Chris@Machine FZF](https://www.chrisatmachine.com/Neovim/08-fzf/)
+
+[FZF will change your workflow completely](https://www.youtube.com/watch?v=on1AzaZzQ7k&t=287s)
