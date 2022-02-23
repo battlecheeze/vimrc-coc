@@ -52,6 +52,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
 
+##### Setting up Zsh powerline
+
+[Install the powerlevel10k](https://github.com/romkatv/powerlevel10k#configuration-wizard)
+
+
 ##### Setting up Vim
 
 **Install Vim**
