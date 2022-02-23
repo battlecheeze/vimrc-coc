@@ -98,25 +98,44 @@ after installing
 **My Coc Plugins**
 
 ```
+coc-json
+coc-git
 coc-yank
-coc-yaml
 coc-webview
-coc-scssmodules
-coc-htmlhint
-coc-html
-coc-html-css-support
-coc-cssmodules
-coc-css
-coc-just-complete
-```
-
-**My Coc Snippet plugins**
-
-```
-coc-snippets
-coc-neosnippet
 coc-ultisnips
+coc-tabnine
+coc-spell-checker
+coc-snippets
+coc-scssmodules
+coc-neosnippet
+coc-marketplace
+coc-just-complete
+coc-html-css-support
+coc-html
+coc-highlight
+coc-fzf-preview
+coc-emmet
+coc-dash-complete
+coc-cssmodules
+coc-tsserver
+coc-yaml
+coc-browser
+coc-sh
+coc-yaml
+coc-jsref
+coc-htmlhint
+coc-css
 ```
+
+**Coc auto plugin install**
+
+be sure that this is available in the vimrc
+
+```
+"Vim COC Plugins
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-yank', 'coc-webview', 'coc-ultisnips', 'coc-tabnine', 'coc-spell-checker', 'coc-snippets', 'coc-scssmodules', 'coc-neosnippet', 'coc-marketplace', 'coc-just-complete', 'coc-html-css-support', 'coc-html', 'coc-highlight', 'coc-fzf-preview', 'coc-emmet', 'coc-dash-complete', 'coc-cssmodules', 'coc-tsserver', 'coc-yaml', 'coc-browser', 'coc-sh', 'coc-yaml', 'coc-jsref', 'coc-htmlhint', 'coc-css']
+```
+It will automatically install the plugins which aren't available
 
 ## Install FZF and more
 
