@@ -52,6 +52,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
 
+##### Setting up Vim
+
 **Install Vim**
 
 ```
@@ -68,6 +70,52 @@ add autoload and move the plug.vim at autoload
 
 ```
 mkdir autoload && mv plug.vim
+```
+
+**vimrc Setup and coc**
+
+add the .vimrc at the user's folder
+
+And then at the vim, install the packages in the .vimrc by type :PlugInstall
+
+```
+:PlugInstall
+```
+
+at Vim install the coc-marketplace
+
+```
+:CocInstall coc-marketplace
+```
+
+It makes faster to search the previous coc plugins you had before
+
+after installing 
+```
+:CocList marketplace
+```
+
+**My Coc Plugins**
+
+```
+coc-yank
+coc-yaml
+coc-webview
+coc-scssmodules
+coc-htmlhint
+coc-html
+coc-html-css-support
+coc-cssmodules
+coc-css
+coc-just-complete
+```
+
+**My Coc Snippet plugins**
+
+```
+coc-snippets
+coc-neosnippet
+coc-ultisnips
 ```
 
 ## Install FZF and more
