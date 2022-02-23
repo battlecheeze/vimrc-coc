@@ -24,7 +24,6 @@ Plug 'majutsushi/tagbar'
 Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mattn/emmet-vim'
@@ -42,6 +41,11 @@ Plug 'peitalin/vim-jsx-typescript'
 
 "Honza Snippets
 Plug 'honza/vim-snippets'
+
+"Vim COC
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Vim COC Plugins
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-yank', 'coc-webview', 'coc-ultisnips', 'coc-tabnine', 'coc-spell-checker', 'coc-snippets', 'coc-scssmodules', 'coc-neosnippet', 'coc-marketplace', 'coc-just-complete', 'coc-html-css-support', 'coc-html', 'coc-highlight', 'coc-fzf-preview', 'coc-emmet', 'coc-dash-complete', 'coc-cssmodules', 'coc-tsserver', 'coc-yaml', 'coc-browser', 'coc-sh', 'coc-yaml', 'coc-jsref', 'coc-htmlhint', 'coc-css']
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
