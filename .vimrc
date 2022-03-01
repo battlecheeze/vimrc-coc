@@ -27,7 +27,7 @@ Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mattn/emmet-vim'
-Plug 'sainnhe/sonokai'
+Plug 'reewr/vim-monokai-phoenix'
 
 "Plug FZF & vim-rooter into vim
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -111,7 +111,7 @@ set smartcase
 syntax on
 set ruler
 set number
-colorscheme sonokai
+colorscheme monokai-phoenix
 
 set mousemodel=popup
 set t_Co=256
@@ -164,7 +164,7 @@ endif
 let g:airline_powerline_fonts = 1
 
 " vim-airline
-let g:airline_theme = 'miramare'
+let g:airline_theme = 'github'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
